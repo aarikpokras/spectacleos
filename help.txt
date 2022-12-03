@@ -1,0 +1,11 @@
+BumfuzzleOS Shell Commands List
+fuzzver		Returns the version of the OS.
+dirn			Returns the name of the current working directory.
+dir			Returns files and directories in the current working directory.
+chdir			Opens dialog to change current working directory.
+fe			File Editor
+help			Returns a help list.
+exit			Exits.
+echo			Opens a dialog to make the shell return inputted text.
+makef		Opens a dialog to make a folder
+pkgman		Package manager
