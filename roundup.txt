@@ -1,0 +1,2 @@
+# PUT IN BASHRC OR BACH PROFILE
+alias fuzz='python3 fuzz.py'
