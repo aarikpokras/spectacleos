@@ -1,4 +1,8 @@
-# bumfuzzleOS
+# bumfuzzleOS 
+<img src="https://i.ibb.co/tcdLJV2/bOSlogo.png" width = "100" alt="logo">
+
+![Fuzz](https://img.shields.io/badge/bumfuzzleos-The%20lightest%20operating%20system-5993ff?style=for-the-badge)
+
 ![GitHub](https://img.shields.io/github/license/aarikpokras/bumfuzzleOS) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/bumfuzzleOS) ![Maintenance](https://img.shields.io/maintenance/yes/2022)
 ## Installation
 Did you know that to bumfuzzle means to confuse?
