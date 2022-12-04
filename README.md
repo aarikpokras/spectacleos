@@ -21,4 +21,6 @@ To run on any system, you can use `python3`. It is recommended to clear the shel
 
 Unzip the wgetted file. It is saved as 'bumfuzzleos.zip'. `unzip path/to/zip.zip`
 
+Make sure to run `fuzz.py` first.
+
 `clear;python3 fuzz.py`
