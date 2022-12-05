@@ -5,14 +5,14 @@
 
 ![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos) ![Maintenance](https://img.shields.io/maintenance/yes/2022)
 ## Installation
-You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or use `wget` to get the zip from GitHub.
+You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or use `curl` to get the zip from GitHub.
 
 Spectacle is available for all UNIX-like operating systems that can support Python.
-**It is recommended to use `wget` to get the repo zip, because it will save to your home folder and it updates live. Releases are *not* updated every time the code is changed. They are released in patches of major updates.**
+**It is recommended to use `curl` to get the repo zip, because it will save to your home folder and it updates live. Releases are *not* updated every time the code is changed. They are released in patches of major updates.**
 ### MacOS
 To install Python, run `brew install python3`. I know brew is *really* slow, but unless you know a better way to get Python, it's the only way.
 
-You can use wget or <a href = "https://github.com/aarikpokras/spectacleos/archive/refs/heads/main.zip">download</a> the repo.
+You can use curl or <a href = "https://github.com/aarikpokras/spectacleos/archive/refs/heads/main.zip">download</a> the repo.
 
 `curl -L -o spectacleos.zip https://github.com/aarikpokras/spectacleos/archive/refs/heads/main.zip`
 ### Linux and Others
