@@ -6,6 +6,7 @@
 ![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos) ![Maintenance](https://img.shields.io/maintenance/yes/2022)
 ## Installation
 Spectacle is available for all UNIX-like operating systems that can support Python.
+It is recommended to use `wget` to get the repo zip, because it will save to your home folder.
 ### MacOS
 To install Python, run `brew install python3`. I know brew is *really* slow, but unless you know a better way to get Python, it's the only way.
 
