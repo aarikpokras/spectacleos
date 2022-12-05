@@ -7,7 +7,8 @@ value=True # Repeats command line infinitely
 while (value):
         cmdLine=input(name+" "+os.getcwd()+'> ')
         if cmdLine == "fuzzver":
-                print('1.0.0')
+                vvCmd=open("version-gui.txt", "r")
+                print(vvCmd.read())
         if cmdLine == "dirn":
                 print(os.getcwd())
         if cmdLine == "dir":
