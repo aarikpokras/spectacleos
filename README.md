@@ -14,7 +14,7 @@ To install Python, run `brew install python3`. I know brew is *really* slow, but
 
 You can use wget or <a href = "https://github.com/aarikpokras/spectacleos/archive/refs/heads/main.zip">download</a> the repo.
 
-`wget -O spectacleos.zip https://github.com/aarikpokras/spectacleos/archive/refs/heads/main.zip`
+`curl -L -o spectacleos.zip https://github.com/aarikpokras/spectacleos/archive/refs/heads/main.zip`
 ### Linux and Others
 To install Python, you can use `apt` or your standard package manager.
 
