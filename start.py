@@ -1,6 +1,6 @@
 from version import ver
 # vers=version.ver
-print("Welcome to spectacleOS! This is version "+ver+" command line.\n🔔 This is the Alpha version, so it kinda sucks.")
+print("Welcome to spectacleOS! This is version "+ver+" command line.")
 name=input('Enter desired hostname. ==> ')
 
 
