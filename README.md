@@ -8,11 +8,11 @@
 You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or use `curl` to get the zip from GitHub.
 
 Spectacle is available for all UNIX-like operating systems that can support Python.
-**It is recommended to use `curl` to get the repo zip, because it will save to your home folder.**
+**It is recommended to grab the latest release from the releases page, because those will be the most up-to-date. *Please* do not download the zip from the "code" tab. Please.**
 ### MacOS
 To install Python, run `brew install python3`. I know brew is *really* slow, but unless you know a better way to get Python, it's the only way.
 
-You can use curl or <a href = "https://github.com/aarikpokras/spectacleos/archive/refs/heads/main.zip">download</a> the repo.
+You can use curl to download the repo.
 
 `curl -L -o spectacleos.zip https://github.com/aarikpokras/aarikpokras.github.io/raw/main/spectacleos-phoenix-v2.2.0.zip`
 ### Linux and Others
