@@ -14,13 +14,13 @@ To install Python, run `brew install python3`. I know brew is *really* slow, but
 
 You can use curl or <a href = "https://github.com/aarikpokras/spectacleos/archive/refs/heads/main.zip">download</a> the repo.
 
-`curl -L -o spectacleos.zip https://github.com/aarikpokras/spectacleos/archive/refs/heads/main.zip`
+`curl -L -o spectacleos.zip https://drive.google.com/uc?export=download&id=1KoeyBWFF9d_qsiD-AJvxh4P01D2ExxHb`
 ### Linux and Others
 To install Python, you can use `apt` or your standard package manager.
 
 `sudo apt install python3`, `sudo yay -S python3`, `sudo yum -S python3`, etc.
 
-`wget -O spectacleos.zip https://github.com/aarikpokras/spectacleos/archive/refs/heads/main.zip`
+`wget -O spectacleos.zip https://drive.google.com/uc?export=download&id=1KoeyBWFF9d_qsiD-AJvxh4P01D2ExxHb`
 ## Running
 To run on any system, you can use `python3`. It is recommended to clear the shell before you run it. Use `cd` to enter the spectacleOS directory.
 
