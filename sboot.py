@@ -1,12 +1,16 @@
 import platform
 import os
 import time
-print("Please cd to the spectacleOS directory.")
 grubChoice=input('____________________________________________________\n | Boot Menu for spectacleOS     						  |\n | '+platform.platform()+'	       						 		 |\n | Run spectacleOS				r		       						  |\n | spectacleOS tutorial				t		       						  |\n | Exit						e		    	   					  |\n |							       						  |\n |___________________________________________________ |\n>>> ')
 if grubChoice == "r":
     print("Booting spectacleOS...")
     if os.path.basename(os.getcwd()) != 'spectacleos':
-        print('Not in proper directory. Exiting.')
+        print('Not in proper directory. Please point the terminal to the "spectacleos" directory.')
+        time.sleep(1)        
         exit()
     time.sleep(1)
     import fuzz
+if grubChoice == "t":
+    import tut
+if grubChoice == "e":
+    exit()
