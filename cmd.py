@@ -1,5 +1,6 @@
 import os
 import start
+import signal
 name=start.name
 
 
@@ -38,3 +39,7 @@ while (value):
                 makeFi=input("makef> ")
                 os.mkdir(makeFi)
                 print("🔔 This folder is located in "+os.getcwd()+"/exit"+makeFi+".")
+        if cmdLine == "fe -read":
+                feRead=input("Input filename. 🔔 The current working directory is "+os.getcwd()+".> ")
+                ferr = open(feRead, "r")
+                print(ferr.read())
