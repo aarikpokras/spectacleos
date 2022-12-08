@@ -1,0 +1,2 @@
+printf "[ -h ]			help\n[ start ]		starts spectacleOS\n[ -sboot ]		Select boot device\n[ -updates ]		Check for updates\n------------------------------------------\n\n"
+
