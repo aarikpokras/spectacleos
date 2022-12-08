@@ -2,4 +2,3 @@
 2. Run `./specs` to run spectacleOS.
 	2a. If it says something like "permission denied", run `chmod 755 specs`. Then try again.
 3. Once in the spectacleOS shell, type `help`.
-4. To check for updates, run `./checkupdates`.
