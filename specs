@@ -1,2 +1,28 @@
 #!/bin/sh
-clear;python3 fuzz.py
+if [ $1 -z ]
+then
+	./bin/cmdhelpS0
+fi
+if [ $1 = "-h" ]
+then
+	./bin/cmdhelp
+fi
+if [ $1 = "start" ]
+then
+	clear;python3 fuzz.py
+fi
+
+if [ $1 = "-sboot" ]
+then
+	clear;./bin/sboot
+fi
+
+if [ $1 = "-updates" ]
+then
+	clear;./bin/checkupdates
+fi
+
+if [ $1 = "-tutorial" ]
+then
+	clear;./bin/tutorial
+fi
