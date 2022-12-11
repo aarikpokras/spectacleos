@@ -4,11 +4,11 @@ from version import ver
 # vers=version.ver
 print("Welcome to spectacleOS! This is version "+ver+" command line.")
 name=input('Enter desired hostname. ==> ')
-user=input('Sign in as existing user, create new user, or bypass? s/c/b> ')
+user=input('Sign in as existing user or create a new one? s/c> ')
 if user == "c":
     newUserNameUn=input("Enter new user's username. This will be the name on the home folder: ")
     newUserName=input("Enter "+newUserNameUn+"'s full name: ")
-    newUserPw=input("Enter "+newUserName+"'s password.")
+    newUserPw=input("Enter "+newUserName+"'s password> ")
     os.chdir('home')
     os.mkdir(newUserNameUn)
     os.chdir(newUserNameUn)
