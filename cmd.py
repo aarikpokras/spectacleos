@@ -1,4 +1,5 @@
 import os
+import maskpass
 import start
 import signal
 name=start.name
@@ -43,5 +44,23 @@ while (value):
                 feRead=input("Input filename. 🔔 The current working directory is "+os.getcwd()+".> ")
                 ferr = open(feRead, "r")
                 print(ferr.read())
+        if cmdLine == "cls":
+                def cls():
+                        os.system('clear')
+                cls()
+        if cmdLine == "shutdown":
+                shutPw=maskpass.askpass(prompt='Enter Password: ', mask='*')
+                if shutPw == start.signInPw:
+                        yorn=input("Enter sboot? y/n> ")
+                        if yorn == "y":
+                                def cls():
+                                        os.system('clear')
+                                cls()
+                                import sboot
+                        if yorn == "n":
+                                print("Aborted.")
+                else:
+                        print("Unauthorized.")
+        # IMPORTANT STUFF BELOW
         if os.path.basename(os.getcwd()) != start.signInUn:
                 print("You've exited the home directory. Some commands like `help` will not work.")
