@@ -64,3 +64,5 @@ while (value):
         # IMPORTANT STUFF BELOW
         if os.path.basename(os.getcwd()) != start.signInUn:
                 print("You've exited the home directory. Some commands like `help` will not work.")
+                print("You've exited the home directory. Some commands like `help` will not work.")
+
