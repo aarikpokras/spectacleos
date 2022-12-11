@@ -6,7 +6,7 @@ name=start.name
 
 value=True # Repeats command line infinitely
 while (value):
-        cmdLine=input(name+" "+os.getcwd()+'> ')
+        cmdLine=input(name+" "+os.getcwd()+'$ ')
         if cmdLine == "fuzzver":
                 vvCmd=open("version-gui.txt", "r")
                 print(vvCmd.read())
@@ -28,7 +28,7 @@ while (value):
                 print(f.read())
                 print("🔔 This file is located in "+os.getcwd()+".")
         if cmdLine == "help":
-                help=open("help.txt", "r")
+                help=open("../../bin/help.txt", "r")
                 print(help.read())
         if cmdLine == "exit":
                 exit()
@@ -43,3 +43,5 @@ while (value):
                 feRead=input("Input filename. 🔔 The current working directory is "+os.getcwd()+".> ")
                 ferr = open(feRead, "r")
                 print(ferr.read())
+        if os.path.basename(os.getcwd()) != start.signInUn:
+                print("You've exited the home directory. Some commands like `help` will not work.")
