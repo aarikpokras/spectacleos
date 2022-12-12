@@ -1,4 +1,0 @@
-1. Use `cd` to enter the directory to which spectacleOS was downloaded.
-2. Run `./specs` to run spectacleOS.
-	2a. If it says something like "permission denied", run `chmod 755 specs`. Then try again.
-3. Once in the spectacleOS shell, type `help`.
