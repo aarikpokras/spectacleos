@@ -7,7 +7,7 @@ name=start.name
 
 value=True # Repeats command line infinitely
 while (value):
-        cmdLine=input(name+" "+os.getcwd()+'$ ')
+        cmdLine=input(name+" "+os.getcwd()+': '+start.signInUn+'$ ')
         if cmdLine == "fuzzver":
                 vvCmd=open("version-gui.txt", "r")
                 print(vvCmd.read())
@@ -48,6 +48,12 @@ while (value):
                 def cls():
                         os.system('clear')
                 cls()
+        if cmdLine == "rm":
+                rmChoice=input("rm-file> ")
+                os.remove(rmChoice) 
+        if cmdLine == "rm -fo":
+                rmChoice=input("rm-directory> ")
+                os.rmdir(rmChoice) 
         if cmdLine == "shutdown":
                 shutPw=maskpass.askpass(prompt='Enter Password: ', mask='*')
                 if shutPw == start.signInPw:
@@ -64,5 +70,3 @@ while (value):
         # IMPORTANT STUFF BELOW
         if os.path.basename(os.getcwd()) != start.signInUn:
                 print("You've exited the home directory. Some commands like `help` will not work.")
-                print("You've exited the home directory. Some commands like `help` will not work.")
-
