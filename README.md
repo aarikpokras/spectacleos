@@ -8,6 +8,7 @@
 You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or use `curl` to get the zip from GitHub.
 
 Spectacle is available for all UNIX-like operating systems that can support Python.
+## Important
 **It is recommended to grab the latest release from the releases page (Rather than `curl`ing), because those will be the most up-to-date. [Learn More](nocurl.md)**
 
 ***Please* do not download the zip from the "code" tab. Please.**
