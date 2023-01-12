@@ -54,6 +54,15 @@ while (value):
         if cmdLine == "rm -fo":
                 rmChoice=input("rm-directory> ")
                 os.rmdir(rmChoice) 
+        if cmdLine == "math":
+                print('Type "eva" to input a raw expression.')
+                num1=input("Number 1> ")
+                if num1 == "eva":
+                        nnu=input("==> ")
+                        print(eval(nnu))
+                num2=input("Number 2> ")
+                numop=input("Operation> ")
+                print(eval(num1+numop+num2))
         if cmdLine == "shutdown":
                 shutPw=maskpass.askpass(prompt='Enter Password: ', mask='*')
                 if shutPw == start.signInPw:

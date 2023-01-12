@@ -11,3 +11,5 @@ help			Returns a help list.
 exit			Exits.
 echo			Opens a dialog to make the shell return inputted text.
 makef			Opens a dialog to make a folder
+math			Simple calculator.
+	Operations: *, /, +, -

@@ -32,7 +32,7 @@ if user == "s":
     signInUn=input("Username> ")
     os.system('sudo chmod +rw home/'+signInUn+'/pw')
     #os.chdir('home/'+signInUn)
-#
+# KEEP IF NO AUTOMATIC PR MERGE
 #
     pwReadS = open("home/"+signInUn+"/pw", "rb")
     pwFullRead=pwReadS.read()
@@ -59,5 +59,6 @@ if user == "s":
 #    if pwReadS.read() != signInPw:
 #        print("Sign-in failed.")
 #        exit()
+# KEEP IF NO AUTOMATIC PR MERGE
 
 # Make continous imports of py files to make full command line file - import variables with import <filename>, then to import variables, <new-var-name>=<filename>.<old-var-name>
