@@ -1,5 +1,6 @@
 # spectacleOS Maui
 <img src="https://i.ibb.co/3dPytT2/specs.png" alt="spectacleOS logo" width="200">
+Current Version: Maui, v4.7.0
 
 ![Fuzz](https://img.shields.io/badge/spectacleos-The%20lightest%20operating%20system-5993ff?style=for-the-badge)
 
