@@ -32,6 +32,7 @@ while (value):
                 help=open("../../bin/help.txt", "r")
                 print(help.read())
         if cmdLine == "exit":
+                print("\033[0m")
                 exit()
         if cmdLine == "echo":
                 echoI=input("echo> ")
