@@ -2,4 +2,4 @@ ALL: build
 build:
 	@cmake -Bbin
 	@cd bin
-	@echo run 'make'.
+	@printf "\033[1;31m`cd bin;make`\033[0m"
