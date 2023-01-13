@@ -1,11 +1,15 @@
-spectacleOS Shell Commands List
+spectacleOS Help
 fuzzver			Returns the version of the OS. (No longer maintained)
 dirn			Returns the name of the current working directory.
 dir			Returns files and directories in the current working directory.
 chdir			Opens dialog to change current working directory.
 fe			File Editor
 	-read	Reads a file of your choice.
+rm			Delete a file
+	-fo	Delete a folder
 help			Returns a help list.
 exit			Exits.
 echo			Opens a dialog to make the shell return inputted text.
 makef			Opens a dialog to make a folder
+math			Simple calculator.
+	Operations: *, /, +, -

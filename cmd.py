@@ -1,4 +1,5 @@
 import os
+import maskpass
 import start
 import signal
 name=start.name
@@ -6,7 +7,7 @@ name=start.name
 
 value=True # Repeats command line infinitely
 while (value):
-        cmdLine=input(name+" "+os.getcwd()+'> ')
+        cmdLine=input(name+" "+os.getcwd()+': '+start.signInUn+'$ ')
         if cmdLine == "fuzzver":
                 vvCmd=open("version-gui.txt", "r")
                 print(vvCmd.read())
@@ -28,7 +29,7 @@ while (value):
                 print(f.read())
                 print("🔔 This file is located in "+os.getcwd()+".")
         if cmdLine == "help":
-                help=open("help.txt", "r")
+                help=open("../../bin/help.txt", "r")
                 print(help.read())
         if cmdLine == "exit":
                 exit()
@@ -43,3 +44,38 @@ while (value):
                 feRead=input("Input filename. 🔔 The current working directory is "+os.getcwd()+".> ")
                 ferr = open(feRead, "r")
                 print(ferr.read())
+        if cmdLine == "cls":
+                def cls():
+                        os.system('clear')
+                cls()
+        if cmdLine == "rm":
+                rmChoice=input("rm-file> ")
+                os.remove(rmChoice) 
+        if cmdLine == "rm -fo":
+                rmChoice=input("rm-directory> ")
+                os.rmdir(rmChoice) 
+        if cmdLine == "math":
+                print('Type "eva" to input a raw expression.')
+                num1=input("Number 1> ")
+                if num1 == "eva":
+                        nnu=input("==> ")
+                        print(eval(nnu))
+                num2=input("Number 2> ")
+                numop=input("Operation> ")
+                print(eval(num1+numop+num2))
+        if cmdLine == "shutdown":
+                shutPw=maskpass.askpass(prompt='Enter Password: ', mask='*')
+                if shutPw == start.signInPw:
+                        yorn=input("Enter sboot? y/n> ")
+                        if yorn == "y":
+                                def cls():
+                                        os.system('clear')
+                                cls()
+                                import sboot
+                        if yorn == "n":
+                                print("Aborted.")
+                else:
+                        print("Unauthorized.")
+        # IMPORTANT STUFF BELOW
+        if os.path.basename(os.getcwd()) != start.signInUn:
+                print("You've exited the home directory. Some commands like `help` will not work.")
