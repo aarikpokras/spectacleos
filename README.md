@@ -12,6 +12,11 @@ Spectacle is available for all UNIX-like operating systems that can support Pyth
 ## Important
 **It is recommended to grab the latest release from the releases page (Rather than `curl`ing), because those will be the most up-to-date. [Learn More](nocurl.md)**
 
+## Running
+Run `make && cd bin && make && cd ..`
+
+If you want a tutorial, run `./specs -tutorial`
+
 ***Please* do not download the zip from the "code" tab. Please.**
 ### MacOS
 To install Python, run `brew install python3`. I know brew is *really* slow, but unless you know a better way to get Python, it's the only way.
