@@ -16,7 +16,7 @@ if user == "c":
     os.chdir('home')
     os.mkdir(newUserNameUn)
     os.chdir(newUserNameUn)
-#
+# KEEP IF NO AUTOMATIC PR MERGE
 #
     pwF = open("pw", "wb")
     pwText=newUserPw
@@ -25,13 +25,23 @@ if user == "c":
     hash=bcrypt.hashpw(bytes, salt)
     pwF.write(hash)
 #
-#
+# KEEP IF NO AUTOMATIC PR MERGE
     print("Account successfully created. Please sign in. Exiting.")
     exit()
 if user == "s":
     signInUn=input("Username> ")
     os.system('sudo chmod +rw home/'+signInUn+'/pw')
     #os.chdir('home/'+signInUn)
+    pwReadS = open("home/"+signInUn+"/pw", "r")
+    signInPw=maskpass.askpass(prompt='Enter Password: ', mask='*')
+    if pwReadS.read() == signInPw:
+        os.chdir("home/"+signInUn)
+        print("Sign-in ok. Welcome to spectacleOS, "+signInUn+"! Remember, you are responsible for doing `chmod -rw` on your password file!")
+        import cmd
+    if pwReadS.read() != signInPw:
+        print("Sign-in failed.")
+        exit()
+
 # KEEP IF NO AUTOMATIC PR MERGE
 #
     pwReadS = open("home/"+signInUn+"/pw", "rb")
