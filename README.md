@@ -2,6 +2,7 @@
 <img src="https://i.ibb.co/3dPytT2/specs.png" alt="spectacleOS logo" width="200">
 
 Current version: Kilimanjaro v5.0.0
+
 ![Fuzz](https://img.shields.io/badge/spectacleos-The%20lightest%20operating%20system-5993ff?style=for-the-badge)
 
 ![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos) ![Maintenance](https://img.shields.io/maintenance/yes/2022)
