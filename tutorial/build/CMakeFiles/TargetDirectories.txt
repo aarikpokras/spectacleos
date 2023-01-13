@@ -1,0 +1,3 @@
+/Users/apokras/Desktop/spectacleos/tutorial/build/CMakeFiles/tutorial.dir
+/Users/apokras/Desktop/spectacleos/tutorial/build/CMakeFiles/edit_cache.dir
+/Users/apokras/Desktop/spectacleos/tutorial/build/CMakeFiles/rebuild_cache.dir
