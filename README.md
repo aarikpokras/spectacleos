@@ -1,13 +1,15 @@
-# spectacleOS
+# spectacleOS Maui
 <img src="https://i.ibb.co/3dPytT2/specs.png" alt="spectacleOS logo" width="200">
+Current Version: Maui, v4.7.1
 
 ![Fuzz](https://img.shields.io/badge/spectacleos-The%20lightest%20operating%20system-5993ff?style=for-the-badge)
 
-![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos) ![Maintenance](https://img.shields.io/maintenance/yes/2022)
+![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos) ![Maintenance](https://img.shields.io/maintenance/yes/2023)
 ## Installation
 You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or use `curl` to get the zip from GitHub.
 
 Spectacle is available for all UNIX-like operating systems that can support Python.
+## Important
 **It is recommended to grab the latest release from the releases page (Rather than `curl`ing), because those will be the most up-to-date. [Learn More](nocurl.md)**
 
 ***Please* do not download the zip from the "code" tab. Please.**
@@ -24,10 +26,10 @@ To install Python, you can use `apt` or your standard package manager.
 
 `wget -O spectacleos.zip https://github.com/aarikpokras/spectacleos/releases/download/v3.2.0/spectacleos-fuji-v3.2.0.zip`
 ## Running
-To run on any system, you can use `python3`. It is recommended to clear the shell before you run it. Use `cd` to enter the spectacleOS directory.
+To run on any system, you can use the commands below.
 
-Unzip the wgetted file. It is saved as 'spectacleos.zip'. `unzip path/to/zip.zip`
+Unzip the wgetted or curled file. It is saved as something along the lines of 'spectacleos-maui-v4.0.0' or something like that. `unzip path/to/zip.zip`
 
-Make sure to run `fuzz.py` first.
+Make sure the `specs` executable is not corrupt. Point your terminal to the spectacleos folder and run `./specs`. It should return a help menu.
 
-`clear;python3 fuzz.py`
+To start, run `./specs start`.
