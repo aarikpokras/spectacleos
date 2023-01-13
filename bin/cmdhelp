@@ -1,1 +1,5 @@
-printf "[ -h ]			help\n[ start ]		starts spectacleOS\n[ -sboot ]		Select boot device\n[ -updates ]		Check for updates\n"
+PC="\033[1;31m"
+# ${PC}
+NC="\033[0m"
+# ${NC}
+printf "${PC}[ -h ]${NC}			help\n${PC}[ start ]${NC}		starts spectacleOS\n${PC}[ -sboot ]${NC}		Select boot device\n${PC}[ -updates ]${NC}		Check for updates\n${PC}[ -tutorial ]		Tutorial\n"
