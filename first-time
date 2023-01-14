@@ -14,4 +14,4 @@ printf "\033[1;37mDone!\033[0m\n"
 echo "You can stop this process now, or if you want..."
 sleep 0.5
 read -p "Enter the name of your default browser (To open the graphical menu)." BROWSER
-open menu.html -a "$BROWSER"
+open ../menu.html -a "$BROWSER"
