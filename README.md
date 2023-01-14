@@ -14,7 +14,7 @@ Spectacle is available for all UNIX-like operating systems that can support Pyth
 
 ***Please* do not download the zip from the "code" tab. Please.**
 ### MacOS
-To install Python, run `brew install python3`. I know brew is *really* slow, but unless you know a better way to get Python, it's the only way.
+To install Python, run `brew install python3`. I know brew is *really* slow (if you haven't updated it in a while), but unless you know a better way to get Python, it's the only way.
 
 You can use curl to download the repo.
 
@@ -34,5 +34,6 @@ Make sure to run `fuzz.py` first.
 
 `clear;python3 fuzz.py`
 
-
+<br />
+<br />
 Made *by* a real person, *for* real people.
