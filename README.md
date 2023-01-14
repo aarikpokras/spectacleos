@@ -54,4 +54,4 @@ Make sure to run `fuzz.py` first.
 <br />
 <br />
 
-Made *by* a real person, *for* real people.
+Made *by* a real person, *for* real people
