@@ -1,5 +1,6 @@
-# spectacleOS Kilimanjaro
-<img src="https://i.ibb.co/3dPytT2/specs.png" alt="spectacleOS logo" width="200">
+<!--# spectacleOS Kilimanjaro-->
+
+<img src="https://github.com/aarikpokras/dmgs/blob/main/specs-head.png?raw=true" alt="spectacleOS Kilimanjaro">
 
 Current version: Kilimanjaro v5.2.0
 
@@ -35,6 +36,8 @@ If you just downloaded it, run `chmod -R 755 spectacleos` in the folder that con
 `cd` into the spectacleos directory.
 
 Run `./first-time` and follow the instructions.
+
+You can open menu.html for a graphical menu.
 
 For information on the Migration Assistant, refer to the [wiki](https://github.com/aarikpokras/spectacleos/wiki/Migration-Assistant-(Migrator)).
 
