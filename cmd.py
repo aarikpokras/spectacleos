@@ -63,6 +63,10 @@ while (value):
                 num2=input("Number 2> ")
                 numop=input("Operation> ")
                 print(eval(num1+numop+num2))
+        if cmdLine == "open":
+                print("Input filepath.\n")
+                opench=input("open> ")
+                os.system('open ' + opench)
         if cmdLine == "shutdown":
                 shutPw=maskpass.askpass(prompt='Enter Password: ', mask='*')
                 if shutPw == start.signInPw:
