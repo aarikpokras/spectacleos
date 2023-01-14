@@ -1,0 +1,16 @@
+#!/bin/sh
+echo "If you haven't already, rename your old spectacleOS folder."
+echo "In these following questions, please make sure there are no spaces in the filenames, even if they're escaped. Wait 1s"
+sleep 1
+read -p "Please enter the path to your old spectacleOS /home folder. Ex: /Users/glassesguy/spectacleos/home " HOMEPATH
+read -p "Please enter the path to your new spectacleOS folder. Ex: /Users/glassesguy/spectacleos " NHOMEPATH
+printf "\033[1;37mRemoving new home folder...\033[0m\n"
+rm -rf $NHOMEPATH/home
+printf "\033[1;37mDone.\033[0m\n"
+
+printf "\033[1;37mMoving old home folder to new home folder...\033[0m\n"
+#
+mv $HOMEPATH $NHOMEPATH
+#
+printf "\033[1;37mDone.\n"
+printf "\033[1;32mOperation complete!\033[0m\n"
