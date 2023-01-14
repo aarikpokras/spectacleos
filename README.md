@@ -1,6 +1,6 @@
 <!--# spectacleOS Kilimanjaro-->
 
-<img src="https://github.com/aarikpokras/dmgs/blob/main/specs-head.png?raw=true" alt="spectacleOS Kilimanjaro">
+<img src="https://github.com/aarikpokras/dmgs/blob/main/specs-head-OF.png?raw=true" alt="spectacleOS Kilimanjaro">
 
 Current version: Kilimanjaro v5.2.0
 
