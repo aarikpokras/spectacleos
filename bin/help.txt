@@ -13,3 +13,4 @@ echo			Opens a dialog to make the shell return inputted text.
 makef			Opens a dialog to make a folder
 math			Simple calculator.
 	Operations: *, /, +, -
+open			Opens a file or application of your choice.
