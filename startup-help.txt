@@ -1,0 +1,12 @@
+If you just downloaded spectacleOS, please run the following commands:
+
+1. Exit the spectacleos directory, into the containing directory.
+
+`chmod -R 755 spectacleos spectacleos/bin`
+
+`./first-time`, and follow the directions.
+
+`./specs start` to start spectacleOS.
+
+See the wiki for important information.
+https://github.com/aarikpokras/spectacleos/wiki

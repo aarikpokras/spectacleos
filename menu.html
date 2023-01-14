@@ -1,0 +1,59 @@
+<title>spectacleOS Graphical Menu</title>
+<div><div data-t="buttons">
+  <a href = "specs" id = "rev" target="_blank">Reveal executable</a>
+  <a href = "startup-help.txt" id = "help">Help</a>
+</div></div>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+div{
+  background-image: url("img/kili.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 99%;
+  height: 96vh;
+  overflow: scroll;
+}
+div[data-t="buttons"]{
+/*   background-color: black; */
+  height: 45px;
+  width: 100%;
+  background-image: none;
+  margin-top: 40%;
+  margin-left: 20%;
+}
+div[data-t="buttons"] > a{
+  color: white;
+  font-family: 'Mukta', sans-serif;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-left: 200px;
+}
+div[data-t="buttons"] > a:hover{
+  color: white;
+  font-family: 'Mukta', sans-serif;
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+}
+#rev{
+  background-color: black;
+}
+#help{
+  background-color: black;
+  margin-left: 400px;
+}
+#help:hover{
+  border: 1px solid white;
+}
+#rev:hover{
+  border: 1px solid white;
+}
+</style>

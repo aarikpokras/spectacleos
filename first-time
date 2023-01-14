@@ -1,0 +1,13 @@
+#!/bin/sh
+# DO NOT CHANGE
+cd cmdhelp;make;cd build;make
+cd ../..
+cd tutorial;make;cd build;make
+cd ../..
+cd cmdhelp/build;mv cmdhelp ../../bin
+cd ..
+#mv tutorial/build/tutorial ../../../bin
+read -p "Please enter the path to the /spectacleos folder. " BINPATH
+mv $BINPATH/tutorial/build/tutorial $BINPATH/bin
+#
+printf "\033[1;37mDone!\033[0m\n"
