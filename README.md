@@ -33,3 +33,6 @@ Unzip the wgetted file. It is saved as 'spectacleos.zip'. `unzip path/to/zip.zip
 Make sure to run `fuzz.py` first.
 
 `clear;python3 fuzz.py`
+
+
+Made *by* a real person, *for* real people.
