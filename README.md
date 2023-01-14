@@ -31,6 +31,8 @@ git clone git@github.com:aarikpokras/spectacleos.git
 ```
 ## Running
 
+[Detailed instructions](https://github.com/aarikpokras/spectacleos/wiki/Getting-Started)
+
 ### ***Please make sure that you are in the spectacleos directory before running any executables.***
 
 If you just downloaded it, run `chmod -R 755 spectacleos` in the folder that contains spectacleOS.
