@@ -8,7 +8,7 @@ Current version: Kilimanjaro v5.5.1
 
 ![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos) ![Maintenance](https://img.shields.io/maintenance/yes/2023)
 ## Installation
-You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or use git to get the zip from GitHub.
+You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or [use git](https://github.com/aarikpokras/spectacleos#macos) to get the zip from GitHub.
 
 Spectacle is available for all UNIX-like operating systems that can support Python.
 **It is recommended to grab the latest release from the releases page (Rather than `curl`ing), because those will be the most up-to-date. [Learn More](nocurl.md)**
