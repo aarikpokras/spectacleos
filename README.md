@@ -45,15 +45,16 @@ You can open menu.html for a graphical menu.
 
 For information on the Migration Assistant, refer to the [wiki](https://github.com/aarikpokras/spectacleos/wiki/Migration-Assistant-(Migrator)).
 
-To run on any system, you can use `python3`. It is recommended to clear the shell before you run it. Use `cd` to enter the spectacleOS directory.
-
-Unzip the wgetted file. It is saved as 'spectacleos.zip'. `unzip path/to/zip.zip`
-
-Make sure to run `fuzz.py` first.
-
-`clear;python3 fuzz.py`
+To run, run `./specs start`. [Syntax](https://github.com/aarikpokras/spectacleos/wiki/Executables-and-Syntax)
 
 <br />
 <br />
 
 Made *by* a real person, *for* real people.
+
+<!--
+spectacleOS
+Copyright (c) 2023, Aarik Pokras
+Under the BSD 2-Clause License
+License: https://github.com/aarikpokras/spectacleos/blob/master/LICENSE
+-->
