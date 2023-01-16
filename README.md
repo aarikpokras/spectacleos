@@ -2,7 +2,7 @@
 
 <img src="https://github.com/aarikpokras/dmgs/blob/main/specs-head-OF.png?raw=true" alt="spectacleOS Kilimanjaro">
 
-Current version: Kilimanjaro v5.5.1
+Current version: Kilimanjaro v5.5.2
 
 ![Fuzz](https://img.shields.io/badge/spectacleos-The%20lightest%20operating%20system-5993ff?style=for-the-badge)
 
