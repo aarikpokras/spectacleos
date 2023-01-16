@@ -11,7 +11,7 @@ Current version: Kilimanjaro v5.5.2
 You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or [use git](https://github.com/aarikpokras/spectacleos#macos) to get the zip from GitHub.
 
 Spectacle is available for all UNIX-like operating systems that can support Python.
-**It is recommended to grab the latest release from the releases page (Rather than `curl`ing), because those will be the most up-to-date. [Learn More](nocurl.md)**
+**It is recommended to grab the latest release from the releases page (Rather than using git), because those will be the most up-to-date. [Learn More](nocurl.md)**
 
 ### MacOS
 To install Python, run `brew install python3`. I know brew is *really* slow (if you haven't updated it in a while), but unless you know a better way to get Python, it's the only way.
