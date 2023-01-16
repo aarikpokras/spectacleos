@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Suggest a command or idea for spectacleOS
 title: ''
 labels: ''
 assignees: ''
