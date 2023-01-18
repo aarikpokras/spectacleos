@@ -2,11 +2,9 @@
 
 <img src="https://github.com/aarikpokras/dmgs/blob/main/specs-head-OF.png?raw=true" alt="spectacleOS Kilimanjaro">
 
-Current version: Kilimanjaro v5.5.2
-
 ![Fuzz](https://img.shields.io/badge/spectacleos-The%20lightest%20operating%20system-5993ff?style=for-the-badge)
 
-![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos) ![Maintenance](https://img.shields.io/maintenance/yes/2023)
+![Version](https://img.shields.io/badge/version-5.5.2-informational) ![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos) ![Maintenance](https://img.shields.io/maintenance/yes/2023)
 ## Installation
 You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or [use git](https://github.com/aarikpokras/spectacleos#macos) to get the zip from GitHub.
 
