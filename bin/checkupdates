@@ -1,3 +1,2 @@
 #!/bin/sh
-python3 -m pip install requests
-python3 upd.py
+ruby upd.rb
