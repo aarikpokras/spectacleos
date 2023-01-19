@@ -16,16 +16,16 @@ To install Python, run `brew install python3`. I know brew is *really* slow (if 
 
 You can use git to download the repo. Depending on your internet speed, it might download painfully slowly. Sorry 'bout that.
 
-```console
-git clone git@github.com:aarikpokras/spectacleos.git
+```bash
+git clone git@github.com:aarikpokras/spectacleos.git && chmod -R 755 spectacleos spectacleos/bin
 ```
 ### Linux and Others
 To install Python, you can use `apt` or your standard package manager.
 
 `sudo apt install python3`, `sudo yay -S python3`, `sudo yum -S python3`, etc.
 
-```console
-git clone git@github.com:aarikpokras/spectacleos.git
+```bash
+git clone git@github.com:aarikpokras/spectacleos.git && chmod -R 755 spectacleos spectacleos/bin
 ```
 ## Running
 
