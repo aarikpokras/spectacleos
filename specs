@@ -17,12 +17,12 @@ elif [ $1 = "-sboot" ]
 then
 	clear;./bin/sboot
 
-elif [ $1 = "-updates" ]
+elif [ $1 = "--updates" ]
 then
 	clear;./bin/checkupdates
 
 
-elif [ $1 = "-tutorial" ]
+elif [ $1 = "--tutorial" ]
 then
 	clear;./bin/tutorial
 fi
