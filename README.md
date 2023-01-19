@@ -14,7 +14,7 @@ Spectacle is available for all UNIX-like operating systems that can support Pyth
 ### MacOS
 To install Python, run `brew install python3`. I know brew is *really* slow (if you haven't updated it in a while), but unless you know a better way to get Python, it's the only way.
 
-You can use git to download the repo.
+You can use git to download the repo. Depending on your internet speed, it might download painfully slowly. Sorry 'bout that.
 
 ```console
 git clone git@github.com:aarikpokras/spectacleos.git
