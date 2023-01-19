@@ -2,7 +2,7 @@
 printf "\033[1;34m"
 if [ $1 -z ]
 then
-	./bin/cmdhelpS0
+	./bin/cmdhelpS0.rb
 elif [ $1 = "-h" ]
 then
 	./bin/cmdhelp
