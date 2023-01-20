@@ -26,3 +26,4 @@ elif [ $1 = "--tutorial" ]
 then
 	clear;./bin/tutorial
 fi
+printf "\033[0m"
