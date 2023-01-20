@@ -4,7 +4,7 @@
 
 ![Fuzz](https://img.shields.io/badge/spectacleos-The%20lightest%20operating%20system-5993ff?style=for-the-badge)
 
-![Version](https://img.shields.io/badge/version-5.5.2-informational) ![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos) ![Maintenance](https://img.shields.io/maintenance/yes/2023)
+![Version](https://img.shields.io/badge/version-5.5.2-informational?style=flat-square) ![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos?style=flat-square) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos?style=flat-square) ![Maintenance](https://img.shields.io/maintenance/yes/2023?style=flat-square)
 ## Installation
 You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or [use git](https://github.com/aarikpokras/spectacleos#macos) to get the zip from GitHub.
 
