@@ -1,0 +1,37 @@
+GETTING STARTED
+===============
+Use git to clone the repo from GitHub.
+
+`git clone git@github.com:aarikpokras/spectacleos.git`
+
+Say you cloned the repo to your desktop folder. So, before you enter the spectacleOS directory, run `chmod -R 755 spectacleos`.
+
+Enter the spectacleOS directory.
+
+To build, run `./first-time`. It'll ask you for the path to the spectacleOS directory. You can drag the folder into the terminal window.
+(If your sysadmin blocks the terminal for some reason, you can download iTerm. It's good.)
+
+Download iTerm2: https://iterm2.com/downloads.html
+
+First, make sure the executables aren't corrupt:
+
+`./specs && ./specs -h`
+
+Then, you can start spectacleOS: `./specs start`
+
+Tutorial: `./specs --tutorial`
+
+CHECKING FOR UPDATES
+====================
+You can run `./specs --updates` to check for updates.
+
+PYTHON3
+=======
+You probably noticed by now that Python 3 is kind of required to run spectacleOS. You can modify the code or get the Python 2.7 version on the branch py2.7.
+
+Installing Python 3
+-------------------
+`sudo apt install python3`
+`sudo yay -S python3`
+`brew install python3`
+etc.
