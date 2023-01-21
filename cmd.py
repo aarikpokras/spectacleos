@@ -71,6 +71,9 @@ while (value):
                 openchs=input("filepath> ")
                 openarg=input("args> ")
                 os.system('open ' + openchs + " " + "'" + openarg + "'")
+        if cmdLine == "webcon":
+                webconp=input("webcon> ")
+                os.system("curl " + webconp)
         if cmdLine == "shutdown":
                 shutPw=maskpass.askpass(prompt='Enter Password: ', mask='*')
                 if shutPw == start.signInPw:
