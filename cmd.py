@@ -11,14 +11,14 @@ while (value):
         if cmdLine == "fuzzver":
                 vvCmd=open("version-gui.txt", "r")
                 print(vvCmd.read())
-        if cmdLine == "dirn":
+        elif cmdLine == "dirn":
                 print(os.getcwd())
-        if cmdLine == "dir":
+        elif cmdLine == "dir":
                 print(os.listdir())
-        if cmdLine == "chdir":
+        elif cmdLine == "chdir":
                 chPath=input("Path> ")
                 os.chdir(chPath)
-        if cmdLine == "fe":
+        elif cmdLine == "fe":
                 feName=input("What to name file? Or if file already exists, type name here. Current working directory is "+os.getcwd()+".> ")
                 feOption=input("Append or overWrite? a/w> ");
                 f = open(feName, feOption)
@@ -28,33 +28,33 @@ while (value):
                 f = open(feName, "r")
                 print(f.read())
                 print("🔔 This file is located in "+os.getcwd()+".")
-        if cmdLine == "help":
+        elif cmdLine == "help":
                 help=open("../../bin/help.txt", "r")
                 print(help.read())
-        if cmdLine == "exit":
+        elif cmdLine == "exit":
                 exit()
-        if cmdLine == "echo":
+        elif cmdLine == "echo":
                 echoI=input("echo> ")
                 print(echoI)
-        if cmdLine == "makef":
+        elif cmdLine == "makef":
                 makeFi=input("makef> ")
                 os.mkdir(makeFi)
                 print("🔔 This folder is located in "+os.getcwd()+"/exit"+makeFi+".")
-        if cmdLine == "fe -read":
+        elif cmdLine == "fe -read":
                 feRead=input("Input filename. 🔔 The current working directory is "+os.getcwd()+".> ")
                 ferr = open(feRead, "r")
                 print(ferr.read())
-        if cmdLine == "cls":
+        elif cmdLine == "cls":
                 def cls():
                         os.system('clear')
                 cls()
-        if cmdLine == "rm":
+        elif cmdLine == "rm":
                 rmChoice=input("rm-file> ")
                 os.remove(rmChoice) 
-        if cmdLine == "rm -fo":
+        elif cmdLine == "rm -fo":
                 rmChoice=input("rm-directory> ")
                 os.rmdir(rmChoice) 
-        if cmdLine == "math":
+        elif cmdLine == "math":
                 print('Type "eva" to input a raw expression.')
                 num1=input("Number 1> ")
                 if num1 == "eva":
@@ -63,18 +63,18 @@ while (value):
                 num2=input("Number 2> ")
                 numop=input("Operation> ")
                 print(eval(num1+numop+num2))
-        if cmdLine == "open":
+        elif cmdLine == "open":
                 print("Input filepath.\n")
                 opench=input("open> ")
                 os.system('open ' + opench)
-        if cmdLine == "open --args":
+        elif cmdLine == "open --args":
                 openchs=input("filepath> ")
                 openarg=input("args> ")
                 os.system('open ' + openchs + " " + "'" + openarg + "'")
-        if cmdLine == "webcon":
+        elif cmdLine == "webcon":
                 webconp=input("webcon> ")
                 os.system("curl " + webconp)
-        if cmdLine == "shutdown":
+        elif cmdLine == "shutdown":
                 shutPw=maskpass.askpass(prompt='Enter Password: ', mask='*')
                 if shutPw == start.signInPw:
                         yorn=input("Enter sboot? y/n> ")
@@ -85,8 +85,11 @@ while (value):
                                 import sboot
                         if yorn == "n":
                                 print("Aborted.")
+                
                 else:
                         print("Unauthorized.")
+        else:
+                print("specs: " + cmdLine + ": Command not found. Type `help` for help.")
         # IMPORTANT STUFF BELOW
         if os.path.basename(os.getcwd()) != start.signInUn:
                 print("You've exited the home directory. Some commands like `help` will not work.")
