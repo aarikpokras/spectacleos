@@ -27,7 +27,7 @@ You can run `./specs --updates` to check for updates.
 
 PYTHON3
 =======
-You probably noticed by now that Python 3 is kind of required to run spectacleOS. You can modify the code or get the Python 2.7 version on the branch py2.7.
+You probably noticed by now that Python 3 is kind of required to run spectacleOS. You can modify the code or get the Python 2.7 version on the branch py2.7. (It won't be very up to date)
 
 Installing Python 3
 -------------------
