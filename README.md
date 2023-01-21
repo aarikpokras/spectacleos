@@ -12,6 +12,12 @@ Spectacle is available for all UNIX-like operating systems that can support Pyth
 **It is recommended to grab the latest release from the releases page (Rather than using git), because those will be the most up-to-date. [Learn More](nocurl.md)**
 
 ### MacOS
+**Recommended for better user experience (And the program won't work without it): rlwrap**
+
+```bash
+brew install rlwrap
+```
+
 To install Python, run `brew install python3`. I know brew is *really* slow (if you haven't updated it in a while), but unless you know a better way to get Python, it's the only way.
 
 You can use git to download the repo. Depending on your internet speed, it might download painfully slowly. Sorry 'bout that.
@@ -20,6 +26,10 @@ You can use git to download the repo. Depending on your internet speed, it might
 git clone git@github.com:aarikpokras/spectacleos.git && chmod -R 755 spectacleos spectacleos/bin
 ```
 ### Linux and Others
+```bash
+sudo apt-get install rlwrap
+```
+
 To install Python, you can use `apt` or your standard package manager.
 
 `sudo apt install python3`, `sudo yay -S python3`, `sudo yum -S python3`, etc.
