@@ -96,8 +96,6 @@ while (value):
                         print("\033[1;37m")
                 else:
                         print("Colors:\ndefault\nblack\nred\ngreen\nyellow\nblue\npurple\ncyan\nwhite")
-        elif cmdLine == "\n":
-                print()
         elif cmdLine == "shutdown":
                 shutPw=maskpass.askpass(prompt='Enter Password: ', mask='*')
                 if shutPw == start.signInPw:
