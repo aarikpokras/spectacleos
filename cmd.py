@@ -74,6 +74,28 @@ while (value):
         elif cmdLine == "webcon":
                 webconp=input("webcon> ")
                 os.system("curl " + webconp)
+        elif cmdLine == "custcol":
+                custcolc=input("Enter color: ")
+                if custcolc == "default":
+                        print("\033[0m")
+                elif custcolc == "black":
+                        print("\033[1;30m")
+                elif custcolc == "red":
+                        print("\033[1;31m")
+                elif custcolc == "green":
+                        print("\033[1;32m")
+                elif custcolc == "yellow":
+                        print("\033[1;33m")
+                elif custcolc == "blue":
+                        print("\033[1;34m")
+                elif custcolc == "purple":
+                        print("\033[1;35m")
+                elif custcolc == "cyan":
+                        print("\033[1;36m")
+                elif custcolc == "white":
+                        print("\033[1;37m")
+                else:
+                        print("Colors:\ndefault\nblack\nred\ngreen\nyellow\nblue\npurple\ncyan\nwhite")
         elif cmdLine == "shutdown":
                 shutPw=maskpass.askpass(prompt='Enter Password: ', mask='*')
                 if shutPw == start.signInPw:
