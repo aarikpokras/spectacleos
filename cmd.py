@@ -1,4 +1,5 @@
 import os
+import random
 import maskpass
 import start
 import signal
@@ -74,6 +75,12 @@ while (value):
         elif cmdLine == "webcon":
                 webconp=input("webcon> ")
                 os.system("curl " + webconp)
+        elif cmdLine == "headsortails":
+                headsortails = ['Heads', 'Tails']
+                print(random.choice(headsortails))
+        elif cmdLine == "magic8ball":
+                ball = ['It is certain.', 'It is so.', 'Without a doubt.', 'Yes.', 'You can count on it.', 'As I see it, yes.', 'Most likely.', 'Outlook is good.', 'Absolutely.', 'All signs point to yes.', 'Reply hazy, try again.', 'Ask again later.', 'Better not tell you now.', 'Cannot predict now.', 'Concentrate and ask again.', 'Don\'t count on it.', 'My reply is no.', 'All signs point to no.', 'Outlook not so good.', 'Doubtful.']
+                print(random.choice(ball))
         elif cmdLine == "custcol":
                 custcolc=input("Enter color: ")
                 if custcolc == "default":
