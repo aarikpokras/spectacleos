@@ -1,6 +1,6 @@
 <!--# spectacleOS Kilimanjaro-->
 
-<img src="https://github.com/aarikpokras/dmgs/blob/main/specs-head-OF.png?raw=true" alt="spectacleOS Kilimanjaro">
+<img src="https://i.ibb.co/gM7WcTH/specs-matterhorn-head.png" alt="spectacleOS Matterhorn">
 
 ![Fuzz](https://img.shields.io/badge/spectacleos-The%20lightest%20operating%20system-5993ff?style=for-the-badge)
 
