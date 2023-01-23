@@ -1,4 +1,4 @@
-<!--# spectacleOS Kilimanjaro-->
+<!--# spectacleOS Matterhorn-->
 
 <img src="https://i.ibb.co/gM7WcTH/specs-matterhorn-head.png" alt="spectacleOS Matterhorn">
 
