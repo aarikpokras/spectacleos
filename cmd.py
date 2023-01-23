@@ -1,4 +1,5 @@
 import os
+import shutil
 import random
 import maskpass
 import start
@@ -81,6 +82,10 @@ while (value):
         elif cmdLine == "magic8ball":
                 ball = ['It is certain.', 'It is so.', 'Without a doubt.', 'Yes.', 'You can count on it.', 'As I see it, yes.', 'Most likely.', 'Outlook is good.', 'Absolutely.', 'All signs point to yes.', 'Reply hazy, try again.', 'Ask again later.', 'Better not tell you now.', 'Cannot predict now.', 'Concentrate and ask again.', 'Don\'t count on it.', 'My reply is no.', 'All signs point to no.', 'Outlook not so good.', 'Doubtful.']
                 print(random.choice(ball))
+        elif cmdLine == "zipfile":
+                zipfilen=input("Desired zipfile name: ")
+                zipfiledir=input('Enter directory to zip: ')
+                shutil.make_archive(zipfilen, 'zip', zipfiledir)
         elif cmdLine == "custcol":
                 custcolc=input("Enter color: ")
                 if custcolc == "default":
