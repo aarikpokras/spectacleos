@@ -9,6 +9,12 @@ then
 
 elif [ $1 = "start" ]
 then
+	if [ $(command -v python3) -z ]
+	then
+	python -m pip install maskpass
+	clear;python grapstart.py
+	clear;rlwrap python3 fuzz.py
+	fi
 	python3 -m pip install maskpass
 	clear;python3 grapstart.py
 	clear;rlwrap python3 fuzz.py
