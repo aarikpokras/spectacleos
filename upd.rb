@@ -16,4 +16,3 @@ puts "██ Not up to date. Please update at https://github.com/aarikpokras/spe
 else
 puts "██ spectacleOS is up to date. ██"
 end
-
