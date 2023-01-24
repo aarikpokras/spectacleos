@@ -6,7 +6,10 @@
 ## Installation
 You can get the latest release [here](https://github.com/aarikpokras/spectacleos/releases), or [use git](https://github.com/aarikpokras/spectacleos#macos) to get the zip from GitHub.
 
-Spectacle is available for all UNIX-like operating systems that can support Python.
+spectacleOS is available for all UNIX-like operating systems that can support Python and rlwrap.
+
+For the graphical start, I recommend downloading the [Mukta font](https://fonts.google.com/specimen/Mukta?query=mukta).
+
 **It is recommended to grab the latest release from the releases page (Rather than using git), because those will be the most up-to-date. [Learn More](nocurl.md)**
 
 ### MacOS
