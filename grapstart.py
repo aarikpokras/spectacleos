@@ -1,5 +1,4 @@
 import turtle
-import time
 turtle.fillcolor("black")
 turtle.begin_fill()
 turtle.hideturtle()
@@ -15,4 +14,3 @@ turtle.write("Hi there!", False, align="center", font=('Mukta', 10, 'normal'))
 turtle.end_fill()
 turtle.done()
 exit()
-import me
