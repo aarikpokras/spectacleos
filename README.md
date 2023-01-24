@@ -38,6 +38,7 @@ To install Python, you can use `apt` or your standard package manager.
 ```bash
 git clone git@github.com:aarikpokras/spectacleos.git && chmod -R 755 spectacleos spectacleos/bin
 ```
+
 ## Running
 
 [Detailed instructions](https://github.com/aarikpokras/spectacleos/wiki/Getting-Started)
