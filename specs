@@ -16,8 +16,8 @@ then
 	#clear;rlwrap python3 fuzz.py
 	#else
 	python3 -m pip install maskpass
-	clear;python grapstart.py
-	clear;rlwrap python fuzz.py
+	clear;python3 grapstart.py
+	clear;rlwrap python3 fuzz.py
 	#fi
 
 elif [ $1 = "-sboot" ]
