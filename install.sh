@@ -1,7 +1,7 @@
 printf "\033[1;31mWait\! spectacleOS graphics'll only work on a GUI. Sorry about that.\033[0m\n"
 printf "\033[1;37mThis program will install spectacleOS on your computer. If you don't want to do this, hit ^Z now.\033[0m\n"
 sleep 2
-if [ $(command -v python3) -z ]
+if [ $(command -v python9) -z ]
 then
 printf "\033[1;31mPlease get Python 3.\033[0m\n" >&2
 exit 2
