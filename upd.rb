@@ -2,7 +2,7 @@
 require 'net/http'
 require 'uri'
 ###############
-fver='6.4.5'
+fver='6.4.6'
 ###############
 def openurl(url)
   Net::HTTP.get(URI.parse(url))
