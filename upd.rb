@@ -8,7 +8,7 @@ def openurl(url)
   Net::HTTP.get(URI.parse(url))
 end
 
-puts "Current version: " + fver.chomp
+puts "Version of this instance: " + fver.chomp
 
 ver = openurl('http://ninth-destiny-mare.glitch.me/specsver')
 if ver != fver
