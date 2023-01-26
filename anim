@@ -1,0 +1,15 @@
+#unset PS1
+upp=$(tput lines)
+clear
+tput cup $upp 0
+printf "\033[1;37m\t\t\tWelcome\n"
+sleep 0.5
+printf "\n"
+sleep 0.5
+printf "\t\t\tto\n"
+sleep 0.5
+printf "\n"
+sleep 0.5
+printf "\t\t\tspectacleOS\033[0m\n"
+sleep 0.5
+printf "\n"
