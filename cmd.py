@@ -5,11 +5,21 @@ import maskpass
 import start
 import signal
 name=start.name
-
+fwd=os.getcwd()
 
 value=True # Repeats command line infinitely
 while (value):
-        cmdLine=input(name+" "+os.getcwd()+': '+start.signInUn+'$ ')
+        if os.path.basename(os.getcwd()) != start.signInUn:
+                print("You've exited the home directory. Some commands like `help` will not work.")
+        if os.path.basename(os.getcwd()) == "spectacleos":
+                fwd='/'
+        elif os.path.basename(os.getcwd()) == start.signInUn:
+                fwd='~'
+        elif os.path.basename(os.getcwd()) == "home":
+                fwd='/home'
+        else:
+                fwd=os.getcwd()
+        cmdLine=input(name+" "+fwd+': '+start.signInUn+'$ ')
         if cmdLine == "fuzzver":
                 vvCmd=open("version-gui.txt", "r")
                 print(vvCmd.read())
@@ -124,6 +134,3 @@ while (value):
                         print("Unauthorized.")
         else:
                 print("specs: " + cmdLine + ": Command not found. Type `help` for help.")
-        # IMPORTANT STUFF BELOW
-        if os.path.basename(os.getcwd()) != start.signInUn:
-                print("You've exited the home directory. Some commands like `help` will not work.")
