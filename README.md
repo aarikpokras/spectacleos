@@ -16,8 +16,9 @@ For the graphical start, I recommend downloading the [Mukta font](https://fonts.
 ### MacOS
 **Recommended for better user experience (And the program won't work without it): rlwrap**
 
+You might wanna get all this:
 ```bash
-brew install rlwrap
+brew install rlwrap cmake make python3 git ruby
 ```
 
 To install Python, run `brew install python3`. I know brew is *really* slow (if you haven't updated it in a while), but unless you know a better way to get Python, it's the only way.
@@ -28,8 +29,9 @@ You can use git to download the repo. Depending on your internet speed, it might
 git clone git@github.com:aarikpokras/spectacleos.git && chmod -R 755 spectacleos spectacleos/bin
 ```
 ### Linux and Others
+You probably have most of this already, but:
 ```bash
-sudo apt-get install rlwrap
+sudo apt-get install rlwrap cmake make build-essential python3 git ruby
 ```
 
 To install Python, you can use `apt` or your standard package manager.
