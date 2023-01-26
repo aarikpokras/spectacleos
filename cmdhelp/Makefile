@@ -1,3 +1,3 @@
-ALL: build
-build:
+ALL: buildc
+buildc:
 	@cmake -Bbuild
