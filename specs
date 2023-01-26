@@ -16,6 +16,7 @@ then
 	#clear;rlwrap python3 fuzz.py
 	#else
 	python3 -m pip install maskpass
+	clear;./anim
 	clear;python3 grapstart.py
 	clear;rlwrap python3 fuzz.py
 	#fi
