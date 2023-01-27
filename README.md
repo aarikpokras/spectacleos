@@ -26,8 +26,9 @@ To install Python, run `brew install python3`. I know brew is *really* slow (if 
 You can use git to download the repo. Depending on your internet speed, it might download painfully slowly. Sorry 'bout that.
 
 ```bash
-git clone git@github.com:aarikpokras/spectacleos.git && chmod -R 755 spectacleos spectacleos/bin
+curl -Lo spectacleos.zip https://github.com/aarikpokras/spectacleos/archive/refs/heads/master.zip && chmod -R 755 spectacleos spectacleos/bin
 ```
+***Make sure you rename the spectacleos-master folder to 'spectacleos'.***
 ### Linux and Others
 You probably have most of this already, but:
 ```bash
@@ -37,7 +38,7 @@ sudo apt-get install rlwrap cmake make build-essential python3 git ruby
 ```bash
 git clone git@github.com:aarikpokras/spectacleos.git && chmod -R 755 spectacleos spectacleos/bin
 ```
-
+***Make sure you rename the spectacleos-master folder to 'spectacleos'.***
 ## Running
 
 [Detailed instructions](https://github.com/aarikpokras/spectacleos/wiki/Getting-Started)
