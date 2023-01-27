@@ -34,10 +34,6 @@ You probably have most of this already, but:
 sudo apt-get install rlwrap cmake make build-essential python3 git ruby
 ```
 
-To install Python, you can use `apt` or your standard package manager.
-
-`sudo apt install python3`, `sudo yay -S python3`, `sudo yum -S python3`, etc.
-
 ```bash
 git clone git@github.com:aarikpokras/spectacleos.git && chmod -R 755 spectacleos spectacleos/bin
 ```
