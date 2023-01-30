@@ -1,6 +1,5 @@
 <!--# spectacleOS Matterhorn-->
 
-
 <img src="https://i.ibb.co/gM7WcTH/specs-matterhorn-head.png" alt="spectacleOS Matterhorn">
 
 ![Version](https://img.shields.io/badge/version-5.5.2-informational?style=flat-square) ![GitHub](https://img.shields.io/github/license/aarikpokras/spectacleos?style=flat-square) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aarikpokras/spectacleos?style=flat-square) ![Maintenance](https://img.shields.io/maintenance/yes/2023?style=flat-square)
