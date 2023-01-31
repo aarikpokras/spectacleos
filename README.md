@@ -22,7 +22,7 @@ brew install rlwrap cmake make python3 git ruby
 
 To install Python, run `brew install python3`. I know brew is *really* slow (if you haven't updated it in a while), but unless you know a better way to get Python, it's the only way.
 
-You can use git to download the repo. Depending on your internet speed, it might download painfully slowly. Sorry 'bout that.
+You can use cURL to download the repo. Depending on your internet speed, it might download painfully slowly. Sorry 'bout that.
 
 ```bash
 curl -Lo spectacleos.zip https://github.com/aarikpokras/spectacleos/archive/refs/heads/master.zip && chmod -R 755 spectacleos spectacleos/bin
@@ -35,7 +35,7 @@ sudo apt-get install rlwrap cmake make build-essential python3 git ruby
 ```
 
 ```bash
-git clone git@github.com:aarikpokras/spectacleos.git && chmod -R 755 spectacleos spectacleos/bin
+curl -Lo spectacleos.zip https://github.com/aarikpokras/spectacleos/archive/refs/heads/master.zip && chmod -R 755 spectacleos spectacleos/bin && chmod -R 755 spectacleos spectacleos/bin
 ```
 ***Make sure you rename the spectacleos-master folder to 'spectacleos'.***
 ## Running
